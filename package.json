@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc -b && vite build && echo 'chat.jacob.rip' >> dist/CNAME",
     "preview": "vite preview",
     "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"

@@ -222,7 +222,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100svh;
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
@@ -294,6 +294,9 @@ const handleKeyDown = (event: KeyboardEvent) => {
   border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .message-input {
